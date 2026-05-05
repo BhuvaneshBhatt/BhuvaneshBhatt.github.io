@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: BhuvaneshBhatt/BhuvaneshBhatt.github.io (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -8,12 +8,6 @@ version: 2
 # Personal info
 name: Bhuvanesh Bhatt
 title: Software Engineer
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -41,15 +35,14 @@ I am especially interested in applying scientific computing, machine learning va
 
 ## About
 
-I am a scientific-computing and machine-learning validation engineer with over a decade of experience working on mathematical and scientific software. My work has involved testing and validating algorithms across machine learning, statistics, stochastic processes, symbolic computation, numerical computation, geometry, graph theory, and related computational domains.
+I am a scientific-computing and machine-learning validation engineer with over a decade of experience working on mathematical and scientific software. My work has involved testing and validating algorithms across machine learning, probability and statistics, symbolic computation, numerical computation, geometry, graph theory, and related computational domains.
 
 I am now focused on building a portfolio at the intersection of:
-
 - scientific computing,
 - machine learning and model validation,
 - environmental and geospatial data science,
 - symbolic and numerical mathematics,
-- causal inference,
+- causal inference, and
 - public-interest technology.
 
 My goal is to contribute to technically rigorous work that supports environmental, ecological, civic, and social-good outcomes.
