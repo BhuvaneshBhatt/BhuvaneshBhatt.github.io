@@ -1,431 +1,95 @@
-# Site
-repository: BhuvaneshBhatt/BhuvaneshBhatt.github.io (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
-version: 2
-
-# Personal info
 name: Bhuvanesh Bhatt
-title: Software Engineer
-
-# Dark Mode (true/false/never)
+title: Scientific-computing and ML-validation engineer
+repository: BhuvaneshBhatt/BhuvaneshBhatt.github.io
 darkmode: false
 
-# Social links
-github_username:  BhuvaneshBhatt
+github_username: BhuvaneshBhatt
 flickr_username: BhuvaneshB
 linkedin_username: polylogs
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  # Bhuvanesh Bhatt
+about_profile_image:
+about_content: |
+  **Scientific-computing and ML-validation engineer moving toward environmental and public-interest data science.**
 
-**Scientific-computing and ML-validation engineer moving toward environmental and public-interest data science.**
+  I build reliable computational tools for mathematical, scientific, and environmental applications. My background spans scientific software validation, symbolic computation, machine learning, statistics, numerical robustness, and reproducible data-science pipelines.
 
-I build reliable computational tools for mathematical, scientific, and environmental applications. My background spans scientific software validation, symbolic computation, machine learning, statistics, numerical robustness, and reproducible data-science pipelines.
-
-I am especially interested in applying scientific computing, machine learning validation, geospatial analysis, and causal inference to climate, ecology, environmental justice, biodiversity, civic technology, and other public-good domains.
-
-[View Projects](#featured-projects) · [Skills](#skills) · [Experience](#experience) · [Contact](#contact)
-
----
-
-## About
-
-I am a scientific-computing and machine-learning validation engineer with over a decade of experience working on mathematical and scientific software. My work has involved testing and validating algorithms across machine learning, probability and statistics, symbolic computation, numerical computation, geometry, graph theory, and related computational domains.
-
-I am now focused on building a portfolio at the intersection of:
-- scientific computing,
-- machine learning and model validation,
-- environmental and geospatial data science,
-- symbolic and numerical mathematics,
-- causal inference, and
-- public-interest technology.
-
-My goal is to contribute to technically rigorous work that supports environmental, ecological, civic, and social-good outcomes.
-
----
-
-## What I Do
-
-### Scientific Computing & Symbolic Mathematics
-
-I work on computational tools for symbolic and numerical mathematics, including symbolic integration, semialgebraic geometry, and tensor algebra.
-
-### Machine Learning Validation & Data Science
-
-I have experience validating machine-learning functionality, designing regression tests, checking preprocessing behavior, evaluating numerical robustness, and building reproducible data-science workflows.
-
-### Environmental & Geospatial Analysis
-
-I am building portfolio projects involving environmental justice, urban greening, heat exposure, biodiversity, air quality, restoration projects, spatial spillovers, and uncertainty-aware modeling.
-
-### Research Software Engineering
-
-I care about correctness, maintainability, systematic testing, readable and understandable documentation, benchmarks, reproducibility, and clear, well-designed software architecture.
-
----
-
-## Featured Projects
-
-### Urban Greening, Heat, and Biodiversity
-
-A geospatial causal-inference project studying how urban greening and restoration interventions affect environmental and ecological outcomes.
-
-The project focuses on treatment layers such as tree planting, grow zones, erosion/restoration projects, green stormwater infrastructure, and habitat or riparian restoration. It is designed to estimate effects on outcomes such as land-surface temperature, vegetation indices, biodiversity observations, and neighborhood environmental conditions.
-
-**Core ideas:**
-
-- treatment inventory construction,
-- spatial causal inference,
-- staggered treatment timing,
-- spatial spillovers,
-- environmental justice covariates, and
-- reproducible geospatial data pipelines.
-
-**Tools and methods:**
-
-- Python,
-- GeoPandas,
-- pandas,
-- Rasterio,
-- xarray,
-- PostGIS,
-- scikit-learn,
-- causal inference,
-- spatial joins, and
-- public open-data sources.
-
-**Repository:** `TODO: add link`
-
----
-
-### PM2.5 and Environmental Justice Modeling
-
-A geospatial machine-learning project for modeling air-quality exposure and environmental justice patterns.
-
-The project combines air-quality monitor data, weather covariates, census or environmental-justice indicators, and spatial modeling methods. It is intended to explore uncertainty-aware prediction, spatial cross-validation, and interpretable environmental risk modeling.
-
-**Core ideas:**
-
-- air-quality exposure modeling,
-- environmental justice analysis,
-- spatial cross-validation,
-- Gaussian processes, and
-- uncertainty estimation.
-
-**Tools and methods:**
-
-- Python,
-- GeoPandas,
-- PostGIS,
-- scikit-learn,
-- PyTorch,
-- GPyTorch,
-- Gaussian processes,
-- environmental covariates, abd
-- spatial machine learning.
-
-**Repository:** `TODO: add link`
-
----
-
-### semialg
-
-A Python package for semialgebraic geometry, including cylindrical algebraic decomposition, quantifier elimination, and roadmap-style algorithms.
-This project explores symbolic algorithms for reasoning about real polynomial systems of equalities and inequalities, sign-invariant decompositions, connected components, sample points, and semialgebraic sets.
-
-**Core ideas:**
-
-- cylindrical algebraic decomposition,
-- quantifier elimination,
-- semialgebraic set reasoning,
-- sign-invariant decomposition,
-- algebraic sample points, and
-- roadmap algorithms.
-
-**Tools:**
-
-- Python,
-- SymPy
-
-**Repository:** `TODO: add link`
-
----
-
-### MultipleIntegrate
-
-A symbolic multiple-integration package focused on region analysis, iterated integration, change-of-variables helpers, and comparisons with SymPy.
-
-The project aims to make multiple integration more systematic by detecting common regions, supporting transformations, and producing clear symbolic workflows.
-
-**Tools:**
-
-- Python,
-- SymPy
-
-**Repository:** `TODO: add link`
-
----
-
-### TensorAtlas
-
-A symbolic tensor-computation project organized around a clean separation between mathematical semantics, normalization rules, and concrete realizations.
-
-The project explores how to represent tensors, forms, index structures, symmetries, contractions, Clifford algebra, and related symbolic objects while keeping the architecture maintainable and extensible.
-
-**Tools:**
-
-- Python,
-- SymPy
-
-**Repository:** `TODO: add link`
-
----
-
-### LLM API and Evaluation Toolkit
-
-A project for experimenting with large-language-model APIs, retrieval-augmented generation, model evaluation, token and cost tracking, and reproducible LLM workflows.
-
-The project explores practical infrastructure for interacting with multiple model providers, evaluating retrieval quality, and organizing LLM experiments in a maintainable way.
-
-**Core ideas:**
-
-- LLM API workflows,
-- model comparison,
-- token and cost tracking,
-- retrieval-augmented generation,
-- reranking,
-- evaluation harnesses,
-- reproducible notebooks.
-
-**Tools and methods:**
-
-- Python,
-- OpenAI API,
-- Claude API,
-- vector search,
-- reranking,
-- FastAPI and
-- Docker.
-
-**Repository:** `TODO: add link`
-
----
-
-## Skills
-
-### Programming and Scientific Computing
-
-- Python
-- Mathematica (Wolfram Language)
-- MySQL, PostgreSQL, MongoDB, Neo4j
-- NumPy
-- SciPy
-- pandas
-- SymPy
-- scikit-learn
-- statsmodels
-- PyTorch
-- Tensorflow
-
-### Machine Learning and Data Science
-
-- model validation
-- regression testing for ML systems
-- preprocessing validation
-- classification and regression workflows
-- clustering and anomaly detection
-- dimensionality reduction
-- feature extraction
-- interpretability checks such as SHAP
-- uncertainty-aware modeling
-- Gaussian processes and other random processes
-- spatial cross-validation
-
-### Geospatial and Environmental Data
-
-- GeoPandas
-- Rasterio
-- xarray
-- PostGIS
-- spatial joins
-- raster/vector workflows
-- environmental covariates
-- environmental justice indicators
-- urban greening data
-- public open-data pipelines
-
-### Mathematical and Symbolic Computing
-
-- probability and statistics
-- polynomial algorithms (both commutative and noncommutative algebra)
-- semialgebraic geometry, including cylindrical algebraic decomposition and quantifier elimination
-- symbolic calculus (both continuous and discrete)
-- numeric and symbolic optimization
-- finite fields
-- number fields
-- tensor algebra
-- special functions
-
-### Software Engineering, Tooling, and Infrastructure
-
-- **Languages and application development:** Python, JavaScript, SQL, Bash
-- **Web and backend frameworks:** Django, FastAPI, Node.js
-- **Frontend frameworks:** React
-- **Version control and collaboration:** Git, GitHub
-- **Python tooling:** uv, dotenv, Ruff, pyright / Pylance, pytest
-- **Build systems and compiled-code tooling:** CMake
-- **Containers and deployment:** Docker, Kubernetes
-- **CI/CD and automation:** GitHub Actions, TeamCity
-- **Cloud and infrastructure:** AWS
-- **Engineering practices:** package architecture, documentation, benchmarking, reproducible notebooks, CI-oriented testing
-
-### Data Engineering and Pipeline Infrastructure
-
-- **Workflow orchestration:** Airflow
-- **Data transformation:** dbt
-- **Distributed processing:** Spark
-- **Event streaming:** Kafka
-- **Databases and spatial databases:** SQL, PostgreSQL, Neo4j, PostGIS
-- **Pipeline practices:** reproducible ETL, data validation, scheduled ingestion, batch processing, spatial data pipelines
-
----
-
-## Experience
-
-I have over a decade of experience working on scientific and mathematical software, including machine-learning validation, statistics and stochastic-process algorithms, symbolic computation, numerical robustness, and large-scale regression testing.
-
-My work has included validating algorithms and functionality across areas such as:
-
-- classification,
-- regression,
-- clustering,
-- anomaly detection,
-- dimensionality reduction,
-- feature extraction,
-- automated preprocessing,
-- model interpretation,
-- statistical computation,
-- stochastic processes,
-- symbolic calculus,
-- special functions,
-- geometry, and
-- graph theory.
-
-I am particularly interested in roles involving scientific computing, data science, machine-learning validation, research software engineering, environmental data, ecological data, climate technology, civic technology, or public-interest technology.
-
----
-
-## Selected Interests
-
-Beyond software and data science, I am interested in biodiversity, bird conservation, environmental justice, climate adaptation, ecological restoration, vegan ethics, public-interest technology, the philosophy of science, and the responsible use of data science/AI.
-
-These interests shape the kinds of technical projects I want to build: rigorous, reproducible tools that help answer questions about the natural world, environmental risk, public resources, and social outcomes.
-
----
-
-## Contact
-
-I am open to scientific computing, data science, machine-learning validation, research software engineering, and public-interest technology roles.
-
-I am especially interested in work related to:
-- climate and environmental data science,
-- biodiversity and conservation technology,
-- environmental justice,
-- civic technology,
-- computational sustainability,
-- scientific and mathematical software,
-- ethical/trustworthy data science/AI.
-
-**GitHub:** [github.com/BhuvaneshBhatt](https://github.com/BhuvaneshBhatt)
-**LinkedIn:** [https://www.linkedin.com/in/polylogs](https://www.linkedin.com/in/polylogs)
-**Resume:** [PDF](assets/ResumeDS.pdf)
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am especially interested in applying scientific computing, machine learning validation, geospatial analysis, causal inference, and software reliability to climate, ecology, environmental justice, biodiversity, civic technology, and other public-good domains.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Featured Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Urban Greening, Heat, and Biodiversity
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+          Geospatial causal-inference project studying how urban greening and restoration interventions affect environmental and ecological outcomes.
+        description: |
+          This project focuses on treatment layers such as tree planting, grow zones, erosion/restoration projects, green stormwater infrastructure, and habitat or riparian restoration.
+
+          **Tools and methods:** Python, GeoPandas, pandas, Rasterio, xarray, PostGIS, scikit-learn, causal inference, spatial joins, and public open-data sources.
+
+      - layout: left
+        title: PM2.5 and Environmental Justice Modeling
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+          Geospatial machine-learning project for modeling air-quality exposure and environmental justice patterns.
+        description: |
+          This project combines air-quality monitor data, weather covariates, census or environmental-justice indicators, and spatial modeling methods.
+
+          **Tools and methods:** Python, GeoPandas, PostGIS, scikit-learn, PyTorch, GPyTorch, Gaussian processes, and spatial machine learning.
+
+      - layout: left
+        title: semialg
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
+          Python package for semialgebraic geometry, cylindrical algebraic decomposition, quantifier elimination, and roadmap-style algorithms.
+        description: |
+          This project explores symbolic algorithms for reasoning about real polynomial systems, sign-invariant decompositions, connected components, sample points, and semialgebraic sets.
+
+          **Tools:** Python, SymPy.
+
+  - title: Skills
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |
+      **Programming and Scientific Computing:** Python, Wolfram Language, SQL, Bash, NumPy, SciPy, pandas, SymPy, scikit-learn, statsmodels, PyTorch.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **Machine Learning and Data Science:** model validation, regression testing for ML systems, preprocessing validation, classification, regression, clustering, anomaly detection, dimensionality reduction, feature extraction, interpretability checks, uncertainty-aware modeling, Gaussian processes, spatial cross-validation.
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+      **Geospatial and Environmental Data:** GeoPandas, Rasterio, xarray, PostGIS, QGIS, Tableau, spatial joins, raster/vector workflows, environmental covariates, environmental justice indicators, urban greening data, public open-data pipelines.
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+      **Software Engineering, Tooling, and Infrastructure:** Git, GitHub, uv, dotenv, Ruff, pyright / Pylance, pytest, CMake, Docker, Kubernetes, GitHub Actions, TeamCity, AWS, FastAPI, package architecture, documentation, benchmarking, reproducible notebooks, CI-oriented testing.
+
+      **Data Engineering and Pipeline Infrastructure:** Airflow, dbt, Apache Spark, Apache Kafka, PostgreSQL, PostGIS, reproducible ETL, data validation, scheduled ingestion, batch processing, spatial data pipelines.
+
+  - title: Experience
+    layout: text
+    content: |
+      I have over a decade of experience working on scientific and mathematical software, including machine-learning validation, statistics and stochastic-process algorithms, symbolic computation, numerical robustness, and large-scale regression testing.
+
+      I am particularly interested in roles involving scientific computing, data science, machine-learning validation, research software engineering, environmental data, ecological data, climate technology, civic technology, and public-interest technology.
+
+  - title: Contact
+    layout: text
+    content: |
+      **GitHub:** [github.com/BhuvaneshBhatt](https://github.com/BhuvaneshBhatt)  
+      **LinkedIn:** [linkedin.com/in/polylogs](https://www.linkedin.com/in/polylogs)  
+      **Resume:** [PDF](assets/ResumeDS.pdf)
+
+footer_show_references: false
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
