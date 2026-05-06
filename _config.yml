@@ -1,12 +1,24 @@
+# Site
+repository: BhuvaneshBhatt/BhuvaneshBhatt.github.io
+
+# Content configuration version required by modern-resume-theme.
+# Without this, the theme may render the About section but skip site.content.
+version: 2
+
+# Personal info
 name: Bhuvanesh Bhatt
 title: Scientific-computing and ML-validation engineer
-repository: BhuvaneshBhatt/BhuvaneshBhatt.github.io
+
+# Theme settings
 darkmode: false
 
+# Social links
 github_username: BhuvaneshBhatt
 flickr_username: BhuvaneshB
 linkedin_username: polylogs
 
+# About section
+about_title: About Me
 about_profile_image:
 about_content: |
   **Scientific-computing and ML-validation engineer moving toward environmental and public-interest data science.**
@@ -15,6 +27,7 @@ about_content: |
 
   I am especially interested in applying scientific computing, machine learning validation, geospatial analysis, causal inference, and software reliability to climate, ecology, environmental justice, biodiversity, civic technology, and other public-good domains.
 
+# Main page content
 content:
   - title: Featured Projects
     layout: list
@@ -49,13 +62,13 @@ content:
   - title: Skills
     layout: text
     content: |
-      **Programming and Scientific Computing:** Python, Wolfram Language, SQL, Bash, NumPy, SciPy, pandas, SymPy, scikit-learn, statsmodels, PyTorch.
+      **Programming and Scientific Computing:** Python, Wolfram Language, SQL, Bash, JavaScript, NumPy, SciPy, pandas, SymPy, scikit-learn, statsmodels, PyTorch.
 
       **Machine Learning and Data Science:** model validation, regression testing for ML systems, preprocessing validation, classification, regression, clustering, anomaly detection, dimensionality reduction, feature extraction, interpretability checks, uncertainty-aware modeling, Gaussian processes, spatial cross-validation.
 
-      **Geospatial and Environmental Data:** GeoPandas, Rasterio, xarray, PostGIS, QGIS, Tableau, spatial joins, raster/vector workflows, environmental covariates, environmental justice indicators, urban greening data, public open-data pipelines.
+      **Geospatial, Environmental Data, and Visualization:** GeoPandas, Rasterio, xarray, PostGIS, QGIS, Tableau, spatial joins, raster/vector workflows, environmental covariates, environmental justice indicators, urban greening data, public open-data pipelines.
 
-      **Software Engineering, Tooling, and Infrastructure:** Git, GitHub, uv, dotenv, Ruff, pyright / Pylance, pytest, CMake, Docker, Kubernetes, GitHub Actions, TeamCity, AWS, FastAPI, package architecture, documentation, benchmarking, reproducible notebooks, CI-oriented testing.
+      **Software Engineering, Tooling, and Infrastructure:** Git, GitHub, uv, dotenv, Ruff, pyright / Pylance, pytest, CMake, Docker, Kubernetes, GitHub Actions, TeamCity, AWS, Django, FastAPI, Node.js, React, package architecture, documentation, benchmarking, reproducible notebooks, CI-oriented testing.
 
       **Data Engineering and Pipeline Infrastructure:** Airflow, dbt, Apache Spark, Apache Kafka, PostgreSQL, PostGIS, reproducible ETL, data validation, scheduled ingestion, batch processing, spatial data pipelines.
 
@@ -73,8 +86,10 @@ content:
       **LinkedIn:** [linkedin.com/in/polylogs](https://www.linkedin.com/in/polylogs)  
       **Resume:** [PDF](assets/ResumeDS.pdf)
 
+# Footer
 footer_show_references: false
 
+# Build settings
 sass:
   sass_dir: _sass
   style: compressed
